@@ -15,12 +15,13 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* Favicon Later */}
         <link rel="icon" href="/JJlogo.jpeg" sizes='80x80' />
       </Head>
-      <main className={`${montserrat.variable} font-montserrat bg-light w-full min-h-screen`}>
+      <main
+        className={`${montserrat.variable} font-montserrat bg-light w-full min-h-screen transition-all duration-200 dark:bg-dark`}
+      >
         <Layout>
           <Component {...pageProps} />
         </Layout>
       </main>
-      <HireMe />
     </>
   )
 }

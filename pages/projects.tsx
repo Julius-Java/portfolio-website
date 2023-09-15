@@ -9,6 +9,7 @@ import interactiveCard from "../public/screenshots/interactiveCardForm.png"
 import noteBlitz from "../public/screenshots/noteBlitzDark.png"
 import notificationPage from "../public/screenshots/notificationPage.png"
 import movieWebsite from "../public/screenshots/movieWeb.png"
+import TransitionEffect from '@/components/TransitionEffect'
 
 const Projects = () => {
     return (
@@ -16,14 +17,15 @@ const Projects = () => {
             <Head>
                 <title>Julius Java | Projects</title>
             </Head>
-            <main className='p-32 dark:text-white'>
+            <TransitionEffect />
+            <main className='p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 dark:text-white'>
                 <AnimatedHeading
                     text="Exploring Innovation: A Showcase of My Projects"
-                    className='text-black text-7xl mb-14 font-extrabold w-full text-center dark:text-light'
+                    className='text-black text-7xl sm:text-5xl xs:text-3xl  mb-14 font-extrabold w-full text-center dark:text-light'
                 />
 
                 <div
-                    className='grid grid-cols-12 gap-24'
+                    className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'
                 >
                     <div
                         className='col-span-12'
@@ -39,7 +41,7 @@ const Projects = () => {
                     </div>
 
                     <div
-                        className='col-span-6'
+                        className='col-span-6 sm:col-span-12'
                     >
                         <Project
                             title='Interactive Card Form'
@@ -51,7 +53,7 @@ const Projects = () => {
                     </div>
 
                     <div
-                        className='col-span-6'
+                        className='col-span-6 sm:col-span-12'
                     >
                         <Project
                             title='Age Calculator'
@@ -76,7 +78,7 @@ const Projects = () => {
                     </div>
 
                     <div
-                        className='col-span-6'
+                        className='col-span-6 sm:col-span-12'
                     >
                         <Project
                             title='Notification Page'
@@ -88,7 +90,7 @@ const Projects = () => {
                     </div>
 
                     <div
-                        className='col-span-6'
+                        className='col-span-6 sm:col-span-12'
                     >
                         <Project
                             title='Movie Web App'

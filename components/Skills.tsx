@@ -4,15 +4,20 @@ const Skills = () => {
     return (
         <>
             <h2
-                className="font-bold text-7xl mt-64 text-center dark:text-light"
+                className="font-bold text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl mt-64 text-center dark:text-light"
             >
                 Skills
             </h2>
             <div
-                className="h-screen relative flex items-center justify-center rounded-full dark:bg-circularDark bg-circularLight"
+                className="h-screen relative flex items-center justify-center rounded-full
+                dark:bg-circularDark bg-circularLight
+                lg:bg-circularLightLg lg:dark:bg-circularDarkLg
+                md:bg-circularLightMd md:dark:bg-circularDarkMd
+                sm:bg-circularLightSm sm:dark:bg-circularDarkSm
+                lg:h-[50vh] sm:h-[60vh] xs:h-[50vh]"
             >
                 <div
-                    className="text-center rounded-full font-semibold bg-dark text-light px-8 py-4 transition-all duration-100 hover:scale-110 cursor-pointer dark:bg-light dark:text-dark"
+                    className="text-center rounded-full font-semibold bg-dark text-light px-8 py-4 transition-all duration-100 hover:scale-110 cursor-pointer dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
                 >
                     Web
                 </div>

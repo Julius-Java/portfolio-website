@@ -8,7 +8,7 @@ const navLinks = [
 ]
 
 const socialLinks = [
-    { title: `Github`, path: "/", SVG: (<GithubSVG/>)},
+    { title: `Github`, path: "/", SVG: (<GithubSVG className="p-[3px] rounded-full dark:bg-dark bg-light" />)},
     { title: `Twitter`, path: "/", SVG: (<TwitterSVG/>)},
     { title: `LinkedIn`, path: "/", SVG: (<LinkedInSVG/>)},
 ]

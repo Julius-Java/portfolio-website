@@ -8,9 +8,9 @@ const navLinks = [
 ]
 
 const socialLinks = [
-    { title: `Github`, path: "/", SVG: (<GithubSVG className="p-[3px] rounded-full dark:bg-dark bg-light" />)},
-    { title: `Twitter`, path: "/", SVG: (<TwitterSVG/>)},
-    { title: `LinkedIn`, path: "/", SVG: (<LinkedInSVG/>)},
+    { title: `Github`, path: "https://github.com/Julius-Java", SVG: (<GithubSVG className="p-[3px] rounded-full dark:bg-dark bg-light" />)},
+    { title: `Twitter`, path: "https://twitter.com/Julius_Java00", SVG: (<TwitterSVG/>)},
+    { title: `LinkedIn`, path: "https://www.linkedin.com/in/julius-emmanuel-873019172/", SVG: (<LinkedInSVG/>)},
 ]
 
 export { navLinks, socialLinks }

@@ -16,6 +16,7 @@ const Projects = () => {
         <>
             <Head>
                 <title>Julius Java | Projects</title>
+                <meta name='description' content="Julius Java's Projects Showcase." />
             </Head>
             <TransitionEffect />
             <main className='p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 dark:text-white'>

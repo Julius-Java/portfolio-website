@@ -17,6 +17,7 @@ export default function Home() {
       <main>
         <Head>
           <title>Julius Java's Portfolio</title>
+          <meta name='description' content="Julius Java's Portfolio Website. Professional Frontend Developer" />
         </Head>
         <TransitionEffect />
         <div

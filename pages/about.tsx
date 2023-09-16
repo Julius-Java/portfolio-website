@@ -14,6 +14,7 @@ const about = () => {
         <>
             <Head>
                 <title>Julius Java | About</title>
+                <meta name='description' content="Julius Java's About Page." />
             </Head>
             <TransitionEffect />
             <main className='p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8'>

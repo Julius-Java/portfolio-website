@@ -7,6 +7,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import aboutImg from '@/public/aboutImgNoBg.png'
 import TransitionEffect from '@/components/TransitionEffect'
+import Education from '@/components/Education'
 
 const about = () => {
     return (
@@ -24,11 +25,11 @@ const about = () => {
                     <div className='col-span-3 flex flex-col gap-8 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='text-black/75 text-2xl font-semibold dark:text-light'>Biography</h2>
 
-                        <p className='text-dark font-semibold text-lg dark:text-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magnam quas fugiat facilis asperiores tempora earum qui suscipit, nihil atque.</p>
+                        <p className='text-dark font-semibold text-lg dark:text-light'>I am a devoted Frontend React JS Developer who thrives on the excitement of unraveling the mysteries of technology. My expertise spans HTML, CSS, Javascript, and React JS, empowering me to craft immersive, responsive interfaces that bring web applications to life.</p>
 
-                        <p className='text-dark font-semibold text-lg dark:text-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi modi neque ipsum, omnis cumque accusantium adipisci odio deserunt earum tempora!</p>
+                        <p className='text-dark font-semibold text-lg dark:text-light'>Beyond the code, I actively contribute to the vibrant NewDev Platform, where I champion collaboration and accountability. My unique blend of creativity, communication skills, problem-solving abilities, and teamwork ensures that my web creations not only engage but also delight users.</p>
 
-                        <p className='text-dark font-semibold text-lg dark:text-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, quibusdam eos optio eaque suscipit illum. Accusamus saepe fuga eum accusantium.</p>
+                        <p className='text-dark font-semibold text-lg dark:text-light'>Feel free to reach out to me at juliusjava00@gmail.com for discussions on HTML, CSS, Javascript, or React JS. My insatiable curiosity fuels my passion for development, making me a valuable asset in the ever-evolving web landscape. Connect with me on LinkedIn, Twitter for the latest updates on my exciting projects.</p>
                     </div>
 
                     <div
@@ -64,6 +65,10 @@ const about = () => {
 
                 <section className='my-20 mb-60 min-h-screen'>
                     <Experience />
+                </section>
+
+                <section className='my-20 mb-60 min-h-screen'>
+                    <Education />
                 </section>
             </main>
         </>

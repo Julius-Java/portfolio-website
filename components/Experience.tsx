@@ -26,11 +26,27 @@ const Experience = () => {
                     style={{scaleY: scrollYProgress}}
                 />
                 <ul className='mt-8 ml-8 flex flex-col items-start justify-between xs:ml-4'>
-                    <ExperienceDetails />
-                    <ExperienceDetails />
-                    <ExperienceDetails />
-                    <ExperienceDetails />
-                    <ExperienceDetails />
+                    <ExperienceDetails
+                        role={'Frontend Developer Volunteer'}
+                        company={'Watt NG'}
+                        duration={'Jan 2023 - Present'}
+                        address={'Remote'}
+                        description={'Collaborating with a small team of developers to build the frontend of a web application that allows users pay their electricity bills online.'}
+                    />
+                    <ExperienceDetails
+                        role={'Frontend Developer Freelancer'}
+                        company={'Fiverr & Upwork'}
+                        duration={'Jun 2022 - Present'}
+                        address={'Remote'}
+                        description={'Working with clients to build their websites and web applications from scratch using modern technologies like React, Next.js, Tailwind CSS, etc.'}
+                    />
+                    <ExperienceDetails
+                        role={'Frontend Developer'}
+                        company={'Student Corner'}
+                        duration={'Jan 2023 - Present'}
+                        address={'Remote'}
+                        description={'Working with a small team of developers to build the frontend of a web application that allows students make payments for their school fees online, keep up to date with class schedules, buy and sell etc.'}
+                    />
                 </ul>
             </div>
         </>

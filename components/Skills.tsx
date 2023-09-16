@@ -21,18 +21,18 @@ const Skills = () => {
                 >
                     Web
                 </div>
-                <Skill name='HTML' x={"-7vw"} y={"-7vw"} />
-                <Skill name='CSS' x={"-10vw"} y={"5vw"} />
-                <Skill name='Javascript' x={"-15vw"} y={"-12vw"} />
-                <Skill name='React JS' x={"7vw"} y={"-7vw"} />
-                <Skill name='Next JS' x={"10vw"} y={"5vw"} />
-                <Skill name='Git' x={"15vw"} y={"-12vw"} />
-                <Skill name='Figma' x={"0vw"} y={"-18vw"} />
-                <Skill name='SCSS' x={"25vw"} y={"0vw"} />
-                <Skill name='Tailwind CSS' x={"-25vw"} y={"0vw"} />
-                <Skill name='GitHub' x={"0vw"} y={"15vw"} />
-                <Skill name='Web Design' x={"-20vw"} y={"15vw"} />
-                <Skill name='Daisy UI' x={"20vw"} y={"15vw"} />
+                <Skill name='HTML' x={"-7vw"} y={"-10vw"} />
+                <Skill name='CSS' x={"-10vw"} y={"9vw"} />
+                <Skill name='Javascript' x={"-20vw"} y={"-15vw"} />
+                <Skill name='React JS' x={"7vw"} y={"-10vw"} />
+                <Skill name='Next JS' x={"10vw"} y={"9vw"} />
+                <Skill name='Git' x={"20vw"} y={"-15vw"} />
+                <Skill name='Figma' x={"0vw"} y={"-22vw"} />
+                <Skill name='SCSS' x={"30vw"} y={"0vw"} />
+                <Skill name='Tailwind CSS' x={"-30vw"} y={"0vw"} />
+                <Skill name='GitHub' x={"0vw"} y={"20vw"} />
+                <Skill name='Web Design' x={"-25vw"} y={"15vw"} />
+                <Skill name='Daisy UI' x={"25vw"} y={"15vw"} />
             </div>
         </>
     )

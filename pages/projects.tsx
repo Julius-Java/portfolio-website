@@ -4,6 +4,7 @@ import AnimatedHeading from '@/components/AnimatedHeading'
 import FeaturedProject from '@/components/FeaturedProject'
 import Project from '@/components/Project'
 import watt from "../public/screenshots/wattScreenShot.png"
+import getLinked from "../public/screenshots/glh.png"
 import ageCalculator from "../public/screenshots/ageCalculator.png"
 import interactiveCard from "../public/screenshots/interactiveCardForm.png"
 import noteBlitz from "../public/screenshots/noteBlitzDark.png"
@@ -28,6 +29,19 @@ const Projects = () => {
                 <div
                     className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'
                 >
+                    <div
+                        className='col-span-12'
+                    >
+                        <FeaturedProject
+                            title='GetLinked Hackathon'
+                            summary='Fully functioal website for signing up/ registering for the GetLinked Hackathon as well as contact support page. Built with Next JS, Tailwind CSS and Daisy UI'
+                            link='https://getlinked-hackathon-chi.vercel.app/'
+                            type='Featured Project'
+                            img={getLinked}
+                            github='https://github.com/Julius-Java/getlinkedHackathon'
+                        />
+                    </div>
+
                     <div
                         className='col-span-12'
                     >

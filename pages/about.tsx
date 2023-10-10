@@ -19,7 +19,7 @@ const about = () => {
             <TransitionEffect />
             <main className='p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8'>
                 <AnimatedHeading
-                    text="Unveiling the Story Behind the Creator: Discover More About Me"
+                    text="Unveiling the Story Behind the Creator: <br/> Discover More About Me"
                     className='text-black text-7xl lg:text-5xl sm:text-4xl xs:text-3xl mb-14 font-extrabold w-full text-center dark:text-light'
                 />
                 <section className='grid grid-cols-8 gap-16 sm:gap-8 dark:text-light'>

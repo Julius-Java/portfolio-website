@@ -67,11 +67,11 @@ const MobileMenu = ({theme, handleTheme, handleMobileOpen}: MobileMenuProps) => 
                         theme === "dark"
                         ?
                         (
-                            <SunIcon className="fill-dark"/>
+                            <SunIcon className="fill-dark h-7 w-7"/>
                         )
                         :
                         (
-                            <MoonIcon className="fill-dark" />
+                            <MoonIcon className="fill-dark h-7 w-7" />
                         )
                     }
                 </button>

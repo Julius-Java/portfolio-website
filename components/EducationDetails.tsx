@@ -20,7 +20,7 @@ const EducationDetails = ({certification, institution, duration, address, info}:
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.5, type: "spring", bounce: 0.3}}
             >
-                <h3 className='capitalize font-bold text-2xl dark:text-light sm:text-xl xs:text-lg'>{certification} <span className='text-primary dark:text-primaryDark'>@ {institution}</span></h3>
+                <h3 className='capitalize font-bold text-2xl dark:text-light sm:text-xl xs:text-lg'>{certification} <span className='text-primary dark:text-primaryDark'> <br /> @ {institution}</span></h3>
                 <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                     {duration} | {address}
                 </span>

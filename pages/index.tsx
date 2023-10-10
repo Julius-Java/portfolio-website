@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import indexImgNoBg from '@/public/indexImgNoBg.png'
+import newIndexImg from "../public/newIndeximg.png"
 import AnimatedHeading from '@/components/AnimatedHeading'
 import Link from 'next/link'
 import { LinkArrowSVG } from '@/components/Icons'
@@ -26,7 +27,7 @@ export default function Home() {
           <div className='w-[35%] md:w-[50%]'>
             <Image
               priority
-              src={indexImgNoBg}
+              src={newIndexImg}
               alt='Emmanuel Julius'
               className='w-full rounded-lg lg:hidden md:block'
             />
@@ -34,7 +35,7 @@ export default function Home() {
           <div className='w-[50%] lg:w-full'>
             {/* <h1 >h1> */}
             <AnimatedHeading
-              text={"Crafting Digital Dreams: Code and Design Fusion."}
+              text={"Crafting Digital Dreams: <br/> Code and Design Fusion."}
               className='text-black text-6xl xl:text-5xl lg:text-center lg:text-6xl md:text-5xl sm:text-3xl  mb-6 font-extrabold w-full dark:text-light'
             />
             <p className='font-semibold text-base dark:text-light lg:text-center'> As a skilled front-end web developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects, showcasing my expertise in React.js, Next JS and web development in general.</p>

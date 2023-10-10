@@ -21,7 +21,7 @@ const ExperienceDetails = ({role, company, address, duration, description}: Expe
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.5, type: "spring", bounce: 0.3}}
             >
-                <h3 className='capitalize font-bold text-2xl dark:text-light sm:text-xl xs:text-lg'>{role} <span className='text-primary dark:text-primaryDark'>@ {company}</span></h3>
+                <h3 className='capitalize font-bold text-2xl dark:text-light sm:text-xl xs:text-lg'>{role} <span className='text-primary dark:text-primaryDark'> <br /> @ {company}</span></h3>
                 <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                     {duration} | {address}
                 </span>

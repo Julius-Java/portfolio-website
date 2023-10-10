@@ -31,6 +31,10 @@ const singleQuote = {
 }
 
 const AnimatedHeading = ({text, className=""}: any) => {
+    const wordsWithBreaks = text.split(/\s+/);
+
+    // console.log(wordsWithBreaks)
+
     return (
         <MotionHeading
             className={`${className}`}
@@ -39,15 +43,21 @@ const AnimatedHeading = ({text, className=""}: any) => {
             animate="animate"
         >
             {
-                text.split(" ").map((word: string, index: number) => (
-                    <MotionSpan
-                        key={index}
-                        className="inline-block"
-                        variants={singleQuote}
-                    >
-                        {word}&nbsp;
-                    </MotionSpan>
-                ))
+                wordsWithBreaks.map((word: string, index: number) => 
+                    {
+                        // const words = word.split('\n');
+                        if (word === "<br/>") return (<br key={index}/>)
+                        return (
+                                <MotionSpan
+                                    key={index}
+                                    className="inline-block"
+                                    variants={singleQuote}
+                                >
+                                    {word}&nbsp;
+                                </MotionSpan>
+                            )
+                    }
+                )
             }
         </MotionHeading>
     )

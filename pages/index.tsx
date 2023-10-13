@@ -10,6 +10,7 @@ import { LinkArrowSVG } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import { LightBulbSVG } from '@/components/Icons'
 import TransitionEffect from '@/components/TransitionEffect'
+import { PaperClipIcon } from '@heroicons/react/20/solid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -50,7 +51,10 @@ export default function Home() {
               className='flex gap-1 bg-dark rounded-lg py-2.5 px-6 text-light font-semibold text-lg border-2 border-solid border-dark hover:bg-light hover:text-dark transition-all duration-300 ease-in-out dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light md:px-4 md:py-1.5 md:text-base'
             >
               Resume
-              <LinkArrowSVG
+              {/* <LinkArrowSVG
+                className='w-6'
+              /> */}
+              <PaperClipIcon
                 className='w-6'
               />
             </Link>

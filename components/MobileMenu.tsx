@@ -3,7 +3,8 @@ import {navLinks, socialLinks} from "@/utils/links"
 import {useRouter} from "next/router"
 import {motion} from "framer-motion"
 import Link from 'next/link'
-import { MoonIcon, SunIcon } from "./Icons"
+import { MoonIcon, SunIcon } from "@heroicons/react/24/solid"
+
 
 type MobileMenuProps = {
     theme: Dispatch<SetStateAction<string>> | string,
@@ -67,11 +68,11 @@ const MobileMenu = ({theme, handleTheme, handleMobileOpen}: MobileMenuProps) => 
                         theme === "dark"
                         ?
                         (
-                            <SunIcon className="fill-dark h-7 w-7"/>
+                            <SunIcon className="w-5"/>
                         )
                         :
                         (
-                            <MoonIcon className="fill-dark h-7 w-7" />
+                            <MoonIcon className="w-5" />
                         )
                     }
                 </button>

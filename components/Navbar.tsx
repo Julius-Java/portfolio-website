@@ -4,10 +4,10 @@ import {navLinks, socialLinks} from "@/utils/links"
 import {useRouter} from "next/router"
 import {motion} from "framer-motion"
 import useThemeSwitcher from "../utils/useThemeSwitcher"
-import { MoonIcon, SunIcon } from "./Icons"
 import { useState } from "react"
 import MobileMenu from "./MobileMenu"
 import React, { Dispatch, SetStateAction } from 'react'
+import { MoonIcon, SunIcon } from "@heroicons/react/24/solid"
 
 type HamburgerMenuProps = {
     isOpen: Dispatch<SetStateAction<boolean>> | boolean,
@@ -105,11 +105,11 @@ const Navbar = () => {
                             theme === "dark"
                             ?
                             (
-                                <SunIcon className="fill-dark"/>
+                                <SunIcon className="w-5"/>
                             )
                             :
                             (
-                                <MoonIcon className="fill-dark" />
+                                <MoonIcon className="w-5" />
                             )
                         }
                     </button>

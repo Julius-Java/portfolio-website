@@ -44,7 +44,7 @@ export default function Home() {
           {/* Home Page CTA */}
           <div className='mt-6 flex items-center gap-4 lg:justify-center'>
             <Link
-              href={"/JuliusJavaResume.pdf"}
+              href={"/JuliusJavaResume2.pdf"}
               download={true}
               target='_blank'
               className='flex gap-1 bg-dark rounded-lg py-2.5 px-6 text-light font-semibold text-lg border-2 border-solid border-dark hover:bg-light hover:text-dark transition-all duration-300 ease-in-out dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light md:px-4 md:py-1.5 md:text-base'

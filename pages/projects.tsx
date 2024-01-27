@@ -12,6 +12,7 @@ import notificationPage from "../public/screenshots/notificationPage.png";
 import movieWebsite from "../public/screenshots/movieWeb.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import sc from "../public/screenshots/scshot.png";
+import geegpay from "../public/screenshots/geegpay-dash-sc.png";
 
 const Projects = () => {
     return (
@@ -31,6 +32,16 @@ const Projects = () => {
                 />
 
                 <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                    <div className="col-span-12">
+                        <FeaturedProject
+                            title="Analytics Dashboard"
+                            summary="A fully functional analytics dashboard built with NextJS, React JS, Zustand, Tanstack react tables, Next UI, ShadCN, Tailwind CSS and Chart JS"
+                            link="https://geegpay-analytics.vercel.app/"
+                            type="Featured Project"
+                            img={geegpay}
+                            github="https://github.com/Julius-Java/geegpay-analytics-dashboard"
+                        />
+                    </div>
                     <div className="col-span-12">
                         <FeaturedProject
                             title="Student Corner"

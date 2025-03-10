@@ -5,6 +5,7 @@ import { z } from "zod";
 import {Resend} from "resend"
 import ContactFormEmail from "@/emails/email";
 
+// Include env in production
 const resend = new Resend(process.env.NEXT_RESEND_API_KEY);
 
 export async function sendEmail(data: z.infer<typeof formSchema>) {

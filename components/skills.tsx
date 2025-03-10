@@ -15,19 +15,19 @@ const skills = [
     category: "Design",
     icon: <Palette className="h-6 w-6" />,
     color: "bg-purple-500/10 text-purple-500",
-    items: ["Figma", "UI/UX", "Responsive Design", "Animation", "Design Systems"],
+    items: ["Figma", "Responsive Design", "Animation"],
   },
   {
     category: "Backend",
     icon: <Database className="h-6 w-6" />,
     color: "bg-blue-500/10 text-blue-500",
-    items: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"],
+    items: ["Node.js", "Express", "Sails JS", "PostgreSQL", "REST APIs"],
   },
   {
     category: "Other",
     icon: <Globe className="h-6 w-6" />,
     color: "bg-green-500/10 text-green-500",
-    items: ["Git", "CI/CD", "Testing", "Performance Optimization", "SEO"],
+    items: ["Git", "Testing", "Performance Optimization", "SEO"],
   },
 ]
 

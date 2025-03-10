@@ -21,7 +21,7 @@ export function ResumeButton() {
       // Set link properties
       // Replace with actual resume path in production
       link.href = "/resume.pdf"
-      link.download = "YourName_Resume.pdf"
+      link.download = "juliusemmanuel_resume.pdf"
 
       // Append to body, click, and remove
       document.body.appendChild(link)
@@ -108,14 +108,14 @@ export function ResumeButton() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.9 }}
             transition={{ duration: 0.2 }}
-            className="absolute top-full mt-2 right-0 bg-card border rounded-lg shadow-lg p-3 z-50 w-48"
+            className="absolute top-full mt-2 right-0 bg-card border rounded-lg shadow-lg p-3 z-50 max-w-max"
           >
-            <div className="flex items-start gap-3">
+            <div className="flex items-start gap-3 w-full">
               <div className="bg-primary/10 p-2 rounded">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <p className="text-sm font-medium">YourName_Resume.pdf</p>
+                <p className="text-sm font-medium">julius_Emmanuel_Resume.pdf</p>
                 <p className="text-xs text-muted-foreground">Last updated: Mar 2025</p>
               </div>
             </div>

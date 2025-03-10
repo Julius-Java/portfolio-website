@@ -27,12 +27,12 @@ export default function Home() {
         <Contact />
 
         <footer className="mt-20 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
-          <div className="mt-2 flex items-center justify-center gap-2">
+          <p>© {new Date().getFullYear()} Julius Emmanuel. All rights reserved.</p>
+          {/* <div className="mt-2 flex items-center justify-center gap-2">
             <Link href="/credits" className="text-primary hover:underline inline-flex items-center gap-1 group">
               View Credits <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
+          </div> */}
         </footer>
       </div>
     </main>

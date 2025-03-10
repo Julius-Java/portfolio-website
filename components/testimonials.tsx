@@ -18,31 +18,31 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Product Manager",
-    company: "TechCorp",
+    name: "Akintola Olwatobi",
+    role: "Senior Mobile App Engineer",
+    company: "Intelligent Innovations, Lagos Nigeria",
     content:
-      "Working with this developer was a game-changer for our project. Their attention to detail and creative solutions exceeded our expectations!",
+      "Julius is a very competent developer and he is eager to learn new concepts or understand how an existing concept/system works.",
     avatar: "/placeholder.svg?height=100&width=100",
     rating: 5,
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "CEO",
-    company: "StartupX",
+    name: "Chiamaka Esonwune",
+    role: "Graphic / UI Designer",
+    company: "",
     content:
-      "Incredible work ethic and technical skills. Delivered our website ahead of schedule with all the interactive elements we wanted and more.",
+      "He's very thorough and pays attention to details",
     avatar: "/placeholder.svg?height=100&width=100",
     rating: 5,
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    role: "Marketing Director",
-    company: "BrandBoost",
+    name: "Onyenankie Kelvin",
+    role: "Backend Developer",
+    company: "Student Cornr",
     content:
-      "The portfolio website created for our agency has received countless compliments. The animations and user experience are top-notch!",
+      "Working with Julius as a backend developer has been an amazing experience. As a frontend developer, he understands the importance of good structure and proper coding practices. He delivers excellent UI implementations and ensures smooth integration between the frontend and backend, making collaboration seamless and efficient.",
     avatar: "/placeholder.svg?height=100&width=100",
     rating: 5,
   },
@@ -213,7 +213,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
 
       {/* Client info */}
       <div className="flex items-center mt-4">
-        {testimonial.avatar && (
+        {/* {testimonial.avatar && (
           <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4 border-2 border-primary/20">
             <Image
               src={testimonial.avatar || "/placeholder.svg"}
@@ -222,7 +222,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
               className="object-cover"
             />
           </div>
-        )}
+        )} */}
         <div>
           <h4 className="font-semibold">{testimonial.name}</h4>
           <p className="text-sm text-muted-foreground">

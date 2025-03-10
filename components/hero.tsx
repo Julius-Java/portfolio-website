@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowDown, Sparkles } from "lucide-react"
 import ConfettiExplosion from "@/components/confetti-explosion"
 import { ResumeButton } from "@/components/resume-button"
+import myavatar from "@/public/me-avatar.jpg"
 
 export default function Hero() {
   const [bounce, setBounce] = useState(false)
@@ -48,7 +49,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="py-20 md:py-28" ref={containerRef}>
+    <section className="py-20 md:py-28" ref={containerRef} id="#home">
       <motion.div style={{ y, opacity }} className="grid md:grid-cols-2 gap-10 items-center">
         <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
@@ -56,7 +57,7 @@ export default function Hero() {
               Hello! <Sparkles className="h-8 w-8 animate-pulse" />
             </span>
             <br />
-            I'm Your Name
+            I'm Julius Emmanuel
           </h1>
           <motion.p
             className="mt-4 text-xl text-muted-foreground"
@@ -64,7 +65,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            A creative developer building delightful digital experiences
+            A creative web developer building delightful digital experiences.
           </motion.p>
           <motion.div
             className="mt-8 flex flex-wrap gap-4"
@@ -114,7 +115,9 @@ export default function Hero() {
               transformStyle: "preserve-3d",
             }}
           >
-            <Image src="/placeholder.svg?height=400&width=400" alt="Your Name" fill className="object-cover" priority />
+            {/* <Image src="/placeholder.svg?height=400&width=400" alt="Emmanuel Julius" fill className="object-cover" priority /> */}
+            <Image src={myavatar} alt="Emmanuel Julius" fill className="object-cover" priority />
+
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
 
             {/* Decorative elements */}

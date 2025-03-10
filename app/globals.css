@@ -58,6 +58,22 @@
   }
 }
 
+body::-webkit-scrollbar {
+  @apply w-[.6rem];
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-md;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  @apply bg-white;
+}
+
 html {
   scroll-behavior: smooth;
 }

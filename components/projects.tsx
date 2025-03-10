@@ -72,7 +72,7 @@ const projects = [
 		image: moonex,
 		public: true,
 		links: {
-			live: "https://moondex-dex.vercel.app",
+			live: "https://moonex-dex.vercel.app",
 			github: "https://github.com/Julius-Java/moonex",
 		},
 	},
